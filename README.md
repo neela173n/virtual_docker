@@ -1,21 +1,32 @@
-# Setting Up a Virtualized Environment Using Docker
+ Setting Up a Virtualized Environment Using Docker
+ --
+ 
 This project demonstrates how to create a Docker container running a simple Nginx web server. It mainly shows how Docker containers can encapsulate environments and deploy services in an isolated virtualized environments.
+
 1. Installing Docker:
-   download and install docker from official docker website by following installation steps and 
-   ensuring WSL is selected during setup.
+   -
+   
+   download and install docker from official docker website by following installation steps and ensuring WSL is selected during setup.
+   
    login into docker and verify if its running.
 
-2. Installing WSL
-   wsl --install
+3. Installing WSL
+   -
    
-3. Creating the dockerised environment by creating the directory dockerized-nginx
-   Neela N@LAPTOP-SQ3SURN6 MINGW64 ~/OneDrive/Desktop/docker
-   $ mkdir dockerized-nginx
-   $ cd dockerized-nginx
+           -> wsl --install
    
-4. Create dockerfile to define environment and service
+5. Creating the dockerised environment by creating the directory
+
+            -> dockerized-nginx
+
    
-5. Create index.html file that contains the application to be run
+   Neela N@LAPTOP-SQ3SURN6 MINGW64 ~/OneDrive/Desktop/docker $ mkdir dockerized-nginx
+
+                  $ cd dockerized-nginx
+   
+7. Create dockerfile to define environment and service
+   
+8. Create index.html file that contains the application to be run
    Now lets a add a basic html code that gets deployed as an application:
    <!DOCTYPE html>
 <html>
