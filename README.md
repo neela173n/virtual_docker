@@ -27,18 +27,29 @@ This project demonstrates how to create a Docker container running a simple Ngin
                   $ cd dockerized-nginx
    
 7. Create dockerfile to define environment and service
+   -
    
-8. Create index.html file that contains the application to be run
+9. Create index.html file that contains the application to be run
    Now lets a add a basic html code that gets deployed as an application:
-   <!DOCTYPE html>
-<html>
-<head>
-    <title>Dockerized Nginx</title>
-</head>
-<body>
-    <h1>Hello, this is a Dockerized Nginx web server!</h1>
-</body>
-</html>
+
+   
+             <!DOCTYPE html>
+   
+               <html>
+   
+               <head>
+   
+               <title>Dockerized Nginx</title>
+   
+               </head>
+   
+               <body>
+   
+               <h1>Hello, this is a Dockerized Nginx web server!</h1>
+   
+               </body>
+   
+               </html>
 
    
    
