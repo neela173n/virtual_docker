@@ -20,7 +20,9 @@ This project demonstrates how to create a Docker container running a simple Ngin
             -> dockerized-nginx
 
    
-   Neela N@LAPTOP-SQ3SURN6 MINGW64 ~/OneDrive/Desktop/docker $ mkdir dockerized-nginx
+   Neela N@LAPTOP-SQ3SURN6 MINGW64 ~/OneDrive/Desktop/docker
+
+                 $ mkdir dockerized-nginx
 
                   $ cd dockerized-nginx
    
